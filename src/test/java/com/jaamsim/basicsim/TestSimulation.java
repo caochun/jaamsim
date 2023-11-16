@@ -24,6 +24,7 @@ import java.util.concurrent.TimeUnit;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.jaamsim.events.TestFrameworkHelpers;
@@ -93,7 +94,7 @@ public class TestSimulation {
 		JaamSimModel simModel = new JaamSimModel();
 		simModel.autoLoad();
 
-		URL url = TestSimulation.class.getResource("Test0001.cfg");
+		URL url = TestSimulation.class.getResource("/Test0001.cfg");
 		InputAgent.readResource(simModel, url.toString());
 
 		simModel.initRun();
