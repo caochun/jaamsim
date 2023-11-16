@@ -8,7 +8,8 @@
     <name>JaamSim</name>
     <description>JaamSim</description>
     <properties>
-        <java.version>17</java.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
     <repositories>
@@ -22,13 +23,13 @@
     <dependencies>
         <dependency>
             <groupId>org.jogamp.jogl</groupId>
-            <artifactId>jogl-all</artifactId>
+            <artifactId>jogl-all-main</artifactId>
             <version>2.5.0</version>
         </dependency>
 
         <dependency>
             <groupId>org.jogamp.gluegen</groupId>
-            <artifactId>gluegen-rt</artifactId>
+            <artifactId>gluegen-rt-main</artifactId>
             <version>2.5.0</version>
         </dependency>
 

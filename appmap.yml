@@ -1,0 +1,12 @@
+name: "jaamsim"
+appmap_dir: "tmp/appmap"
+packages:
+- path: "com.jaamsim"
+- path: "resources.documents"
+- path: "resources.examples"
+- path: "resources.help"
+- path: "resources.images"
+- path: "resources.inputs"
+- path: "resources.shaders"
+- path: "resources.shaders_core"
+- path: "resources.shapes"
